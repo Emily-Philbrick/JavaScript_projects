@@ -16,3 +16,10 @@ function MyFunction () {
     document.getElementById("Concatenate") .innerHTML = sentence; 
 }
 
+
+function myFunction(p1, p2) {
+    return p1 * p2;   // The function returns the product of p1 and p2
+  }
+
+  var x = document.getElementById("demo");   // Get the element with id="demo"
+x.style.color = "red";                     // Change the color of the element
