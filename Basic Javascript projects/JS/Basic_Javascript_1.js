@@ -20,10 +20,14 @@ var blues ="I said" + "Step aside"
 var blues = blues.fontcolor("blue");
 document.write(blues);
    
-
 var Family= "the Arezzinis", Dad= "Jeremiah", mom="hermoine",
     daughter= "penny", son="Zorro";
 document.write(Dad);
 
-document.write("<p>Fontcolor: " + txt.fontcolor("green") + "</p>");
+document.write(3+3);
 
+function My_First_Function () {
+    var str = "this text is green!";
+    var result = str.fontcolor("green");
+    document.getElementById("Green_Text").innerHTML = result;
+}
