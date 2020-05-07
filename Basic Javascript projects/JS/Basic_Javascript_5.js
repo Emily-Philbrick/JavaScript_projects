@@ -47,3 +47,6 @@ function my_Function2() {
 function not_Function() {
     document.getElementById("Not").innerHTML = ! (20 > 10);
 }
+
+document.write(bigger = 5 >1) ? "left number is bigger":"Right number is bigger") ;
+

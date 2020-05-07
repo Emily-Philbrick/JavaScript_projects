@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8>"
+    </head>
+
+    <body>
+
+    <p id="Greeting" onclick="get_Date()">Click Here.</p>
+    <script src=JS/Basic_Javascript_7.js></script>
+
+
+
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.getElementById("demo").innerHTML = days[d.getDay()];
+</script>
+
+<script src="JS/Basic_Javascript_7.js"></script>
+<p>Write your favorite color:</p>
+<input id="color" Value="" />
+<p id="whats_your_favorite_color?"></p>
+<button onclick="Favorite_color()">Click Here</button>
+
+<p id="Time_of_day"></p>
+<button onclick="Time_function()">clikc here to get the time.</button>
+
+
+</html>
